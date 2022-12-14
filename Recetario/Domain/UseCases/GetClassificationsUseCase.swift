@@ -1,5 +1,5 @@
 //
-//  GetRecipesUseCase.swift
+//  GetClassificationsUseCase.swift
 //  Recetario
 //
 //  Created by Miguel Angel Olmedo Perez on 14/12/22.
@@ -7,15 +7,15 @@
 
 import Foundation
 
-protocol GetClassificationsUseCaseProtocol {
-    func execute() async throws -> [Classification]
+protocol GetCategoriesUseCaseProtocol {
+    func execute() async throws -> [Category]
 }
 
-final class GetClassificationsUseCase: GetClassificationsUseCaseProtocol {
+final class GetCategoriesUseCase: GetCategoriesUseCaseProtocol {
 
     typealias RequestValue = Void
 
-    typealias ResultValue = [Classification]
+    typealias ResultValue = [Category]
 
     private let requestValue: RequestValue
     private let recipeRepository: RecipeRepository
@@ -32,13 +32,13 @@ final class GetClassificationsUseCase: GetClassificationsUseCaseProtocol {
 }
 
 protocol RecipeRepository {
-    func fetchClassifications() async throws -> [Classification]
+    func fetchClassifications() async throws -> [Category]
 }
 
 class RecipeService: RecipeRepository {
-    func fetchClassifications() async throws -> [Classification] {
-        return try await withCheckedThrowingContinuation({ (continuation: CheckedContinuation<[Classification], Error>) in
-            loadJSONData { (data: [Classification]?, error: Error?) in
+    func fetchClassifications() async throws -> [Category] {
+        return try await withCheckedThrowingContinuation({ (continuation: CheckedContinuation<[Category], Error>) in
+            loadJSONData { (data: [Category]?, error: Error?) in
                 if let error {
                     continuation.resume(throwing: error)
                 }
