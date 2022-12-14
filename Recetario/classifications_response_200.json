@@ -1,0 +1,1415 @@
+[
+    {
+        "classifications": [
+            {
+                "icon": "i4003.jpg",
+                "image": "4003.png",
+                "imagepath": "/clasificacion/4003/",
+                "key": 4003,
+                "link": "faciles",
+                "path": "/preferencia/faciles",
+                "shorttitle": "Fáciles",
+                "virtual": null
+            },
+            {
+                "icon": "i1.jpg",
+                "image": "1.jpg",
+                "imagepath": "/clasificacion/1/",
+                "key": 1,
+                "link": "postres",
+                "path": "/recetas/postres",
+                "shorttitle": "Postres",
+                "virtual": null
+            },
+            {
+                "icon": "i48.jpg",
+                "image": "48.jpg",
+                "imagepath": "/clasificacion/48/",
+                "key": 48,
+                "link": "carnes-y-aves",
+                "path": "/recetas/carnes-y-aves",
+                "shorttitle": "Pollo y Carne",
+                "virtual": null
+            },
+            {
+                "icon": "i3356.jpg",
+                "image": "3356.jpg",
+                "imagepath": "/clasificacion/3356/",
+                "key": 3356,
+                "link": "recetas-a-la-parrilla",
+                "path": "/temporada/recetas-a-la-parrilla",
+                "shorttitle": "Recetas a la Parrilla",
+                "virtual": null
+            },
+            {
+                "icon": "i67.jpg",
+                "image": "67.jpg",
+                "imagepath": "/clasificacion/67/",
+                "key": 67,
+                "link": "ensaladas",
+                "path": "/recetas/ensaladas",
+                "shorttitle": "Ensaladas",
+                "virtual": null
+            },
+            {
+                "icon": "i74.jpg",
+                "image": "74.jpg",
+                "imagepath": "/clasificacion/74/",
+                "key": 74,
+                "link": "guarniciones",
+                "path": "/recetas/guarniciones",
+                "shorttitle": "Guarniciones",
+                "virtual": null
+            },
+            {
+                "icon": "i93.jpg",
+                "image": "93.jpg",
+                "imagepath": "/clasificacion/93/",
+                "key": 93,
+                "link": "pescados-y-mariscos",
+                "path": "/recetas/pescados-y-mariscos",
+                "shorttitle": "Pescados y Mariscos",
+                "virtual": null
+            },
+            {
+                "icon": "i104.jpg",
+                "image": "104.jpg",
+                "imagepath": "/clasificacion/104/",
+                "key": 104,
+                "link": "botanas",
+                "path": "/recetas/botanas",
+                "shorttitle": "Recetas de Botanas Fáciles",
+                "virtual": null
+            },
+            {
+                "icon": "i115.jpg",
+                "image": "115.jpg",
+                "imagepath": "/clasificacion/115/",
+                "key": 115,
+                "link": "pastas",
+                "path": "/recetas/pastas",
+                "shorttitle": "Recetas de Pastas",
+                "virtual": null
+            },
+            {
+                "icon": "i127.jpg",
+                "image": "127.jpg",
+                "imagepath": "/clasificacion/127/",
+                "key": 127,
+                "link": "comida-para-ninos",
+                "path": "/recetas/comida-para-ninos",
+                "shorttitle": "Comida para Niños",
+                "virtual": null
+            },
+            {
+                "icon": "i128.jpg",
+                "image": "128.jpg",
+                "imagepath": "/clasificacion/128/",
+                "key": 128,
+                "link": "postres-para-ninos",
+                "path": "/recetas/postres-para-ninos",
+                "shorttitle": "Postres para Niños",
+                "virtual": null
+            },
+            {
+                "icon": "i122.jpg",
+                "image": "122.jpg",
+                "imagepath": "/clasificacion/122/",
+                "key": 122,
+                "link": "sopas",
+                "path": "/recetas/sopas",
+                "shorttitle": "Sopas",
+                "virtual": null
+            },
+            {
+                "icon": "i129.jpg",
+                "image": "129.jpg",
+                "imagepath": "/clasificacion/129/",
+                "key": 129,
+                "link": "saludables",
+                "path": "/recetas/saludables",
+                "shorttitle": "Saludables",
+                "virtual": null
+            },
+            {
+                "icon": "i130.jpg",
+                "image": "130.jpg",
+                "imagepath": "/clasificacion/130/",
+                "key": 130,
+                "link": "desayunos",
+                "path": "/recetas/desayunos",
+                "shorttitle": "Desayunos",
+                "virtual": null
+            },
+            {
+                "icon": "i142.jpg",
+                "image": "142.jpg",
+                "imagepath": "/clasificacion/142/",
+                "key": 142,
+                "link": "panes",
+                "path": "/recetas/panes",
+                "shorttitle": "Panes",
+                "virtual": null
+            },
+            {
+                "icon": "i3406.jpg",
+                "image": "3406.jpg",
+                "imagepath": "/clasificacion/3406/",
+                "key": 3406,
+                "link": "guarniciones-de-exito",
+                "path": "/recetas/guarniciones-de-exito",
+                "shorttitle": "Guarniciones de Éxito",
+                "virtual": null
+            },
+            {
+                "icon": "i144.jpg",
+                "image": "144.jpg",
+                "imagepath": "/clasificacion/144/",
+                "key": 144,
+                "link": "salsas",
+                "path": "/recetas/salsas",
+                "shorttitle": "Salsas",
+                "virtual": null
+            },
+            {
+                "icon": "i1000.jpg",
+                "image": "1000.jpg",
+                "imagepath": "/clasificacion/1000/",
+                "key": 1000,
+                "link": "bebidas",
+                "path": "/recetas/bebidas",
+                "shorttitle": "Bebidas",
+                "virtual": null
+            },
+            {
+                "icon": "i3675.jpg",
+                "image": "3675.jpg",
+                "imagepath": "/clasificacion/3675/",
+                "key": 3675,
+                "link": "platos-fuertes",
+                "path": "/recetas/platos-fuertes",
+                "shorttitle": "Platos Fuertes",
+                "virtual": null
+            },
+            {
+                "icon": "i3119.jpg",
+                "image": "3119.jpg",
+                "imagepath": "/clasificacion/3119/",
+                "key": 3119,
+                "link": "navidad",
+                "path": "/temporada/navidad",
+                "shorttitle": "Recetas Navideñas",
+                "virtual": null
+            }
+        ],
+        "description": "Cocina algo diferente todos los días con las más de 16,000 recetas de comida probadas y calificadas por la comunidad Kiwilimón",
+        "device": "ios",
+        "h1title": "Recetas",
+        "htmltitle": "Recetas de comida",
+        "icon": "",
+        "image": "rec.jpg",
+        "imagepath": "/familia/rec/",
+        "key": "rec",
+        "language": "es",
+        "link": "recetas",
+        "metadescripcion": null,
+        "path": "/recetas",
+        "quantityclassifications": 20,
+        "quantityrecipes": 20026,
+        "shorttitle": "Recetas"
+    },
+    {
+        "classifications": [
+            {
+                "icon": "i3119.jpg",
+                "image": "3119.jpg",
+                "imagepath": "/clasificacion/3119/",
+                "key": 3119,
+                "link": "navidad",
+                "path": "/temporada/navidad",
+                "shorttitle": "Recetas Navideñas",
+                "virtual": null
+            },
+            {
+                "icon": "i3647.jpg",
+                "image": "3647.jpg",
+                "imagepath": "/clasificacion/3647/",
+                "key": 3647,
+                "link": "recetas-para-ver-el-mundial-de-futbol",
+                "path": "/temporada/recetas-para-ver-el-mundial-de-futbol",
+                "shorttitle": "Recetas para ver el Mundial de Fútbol",
+                "virtual": null
+            },
+            {
+                "icon": "i3185.jpg",
+                "image": "3185.jpg",
+                "imagepath": "/clasificacion/3185/",
+                "key": 3185,
+                "link": "dietas",
+                "path": "/preferencia/dietas",
+                "shorttitle": "Dietas",
+                "virtual": null
+            },
+            {
+                "icon": "i3221.jpg",
+                "image": "3221.jpg",
+                "imagepath": "/clasificacion/3221/",
+                "key": 3221,
+                "link": "san-valentin",
+                "path": "/temporada/san-valentin",
+                "shorttitle": "San Valentín",
+                "virtual": null
+            },
+            {
+                "icon": "i3002.jpg",
+                "image": "3002.jpg",
+                "imagepath": "/clasificacion/3002/",
+                "key": 3002,
+                "link": "cuaresma",
+                "path": "/temporada/cuaresma",
+                "shorttitle": "Cuaresma",
+                "virtual": null
+            },
+            {
+                "icon": "i3587.jpg",
+                "image": "3587.jpg",
+                "imagepath": "/clasificacion/3587/",
+                "key": 3587,
+                "link": "pascua",
+                "path": "/temporada/pascua",
+                "shorttitle": "Pascua",
+                "virtual": null
+            },
+            {
+                "icon": "i3279.jpg",
+                "image": "3279.jpg",
+                "imagepath": "/clasificacion/3279/",
+                "key": 3279,
+                "link": "ninos",
+                "path": "/preferencia/ninos",
+                "shorttitle": "Niños",
+                "virtual": null
+            },
+            {
+                "icon": "i3922.jpg",
+                "image": "3922.jpg",
+                "imagepath": "/clasificacion/3922/",
+                "key": 3922,
+                "link": "recetas-mexicanas-para-el-5-de-mayo",
+                "path": "/temporada/recetas-mexicanas-para-el-5-de-mayo",
+                "shorttitle": "5 de Mayo",
+                "virtual": null
+            },
+            {
+                "icon": "i3306.jpg",
+                "image": "3306.jpg",
+                "imagepath": "/clasificacion/3306/",
+                "key": 3306,
+                "link": "dia-de-las-madres",
+                "path": "/temporada/dia-de-las-madres",
+                "shorttitle": "Día de las Madres",
+                "virtual": null
+            },
+            {
+                "icon": "i3315.jpg",
+                "image": "3315.jpg",
+                "imagepath": "/clasificacion/3315/",
+                "key": 3315,
+                "link": "dia-del-padre",
+                "path": "/temporada/dia-del-padre",
+                "shorttitle": "Día del Padre",
+                "virtual": null
+            },
+            {
+                "icon": "i3356.jpg",
+                "image": "3356.jpg",
+                "imagepath": "/clasificacion/3356/",
+                "key": 3356,
+                "link": "recetas-a-la-parrilla",
+                "path": "/temporada/recetas-a-la-parrilla",
+                "shorttitle": "Recetas a la Parrilla",
+                "virtual": null
+            },
+            {
+                "icon": "i3348.jpg",
+                "image": "3348.jpg",
+                "imagepath": "/clasificacion/3348/",
+                "key": 3348,
+                "link": "verano",
+                "path": "/temporada/verano",
+                "shorttitle": "Verano",
+                "virtual": null
+            },
+            {
+                "icon": "i3006.jpg",
+                "image": "3006.jpg",
+                "imagepath": "/clasificacion/3006/",
+                "key": 3006,
+                "link": "vacaciones",
+                "path": "/temporada/vacaciones",
+                "shorttitle": "Vacaciones",
+                "virtual": null
+            },
+            {
+                "icon": "i3417.jpg",
+                "image": "3417.jpg",
+                "imagepath": "/clasificacion/3417/",
+                "key": 3417,
+                "link": "recetas-para-el-regreso-a-clases-kiwilimon",
+                "path": "/temporada/recetas-para-el-regreso-a-clases-kiwilimon",
+                "shorttitle": "Recetas para el Regreso a Clases",
+                "virtual": null
+            },
+            {
+                "icon": "i3007.jpg",
+                "image": "3007.jpg",
+                "imagepath": "/clasificacion/3007/",
+                "key": 3007,
+                "link": "fiestas-patrias",
+                "path": "/temporada/fiestas-patrias",
+                "shorttitle": "Fiestas Patrias",
+                "virtual": null
+            },
+            {
+                "icon": "i3956.jpg",
+                "image": "3956.jpg",
+                "imagepath": "/clasificacion/3956/",
+                "key": 3956,
+                "link": "hispanic-heritage",
+                "path": "/temporada/hispanic-heritage",
+                "shorttitle": "Hispanic Heritage",
+                "virtual": null
+            },
+            {
+                "icon": "i3962.png",
+                "image": "3962.jpg",
+                "imagepath": "/clasificacion/3962/",
+                "key": 3962,
+                "link": "sabores-de-otono",
+                "path": "/temporada/sabores-de-otono",
+                "shorttitle": "Sabores de Otoño",
+                "virtual": null
+            },
+            {
+                "icon": "i3008.jpg",
+                "image": "3008.jpg",
+                "imagepath": "/clasificacion/3008/",
+                "key": 3008,
+                "link": "halloween",
+                "path": "/temporada/halloween",
+                "shorttitle": "Halloween",
+                "virtual": null
+            },
+            {
+                "icon": "i3488.jpg",
+                "image": "3488.jpg",
+                "imagepath": "/clasificacion/3488/",
+                "key": 3488,
+                "link": "dia-de-muertos",
+                "path": "/temporada/dia-de-muertos",
+                "shorttitle": "Día de Muertos",
+                "virtual": null
+            },
+            {
+                "icon": "i3973.png",
+                "image": "3973.jpg",
+                "imagepath": "/clasificacion/3973/",
+                "key": 3973,
+                "link": "recetas-faciles-para-quedarse-en-casa",
+                "path": "/temporada/recetas-faciles-para-quedarse-en-casa",
+                "shorttitle": "Recetas Fáciles para Quedarse en Casa",
+                "virtual": null
+            }
+        ],
+        "description": "Conoce las mejores recetas para las temporadas y fiestas como recetas para Fiestas Patrias, recetas para Halloween, recetas para Navidad y otras deliciosas recetas para las temporadas del año. ",
+        "device": "ios",
+        "h1title": "Temporadas",
+        "htmltitle": "Recetas de Temporadas y Fiestas",
+        "icon": "",
+        "image": "tem.jpg",
+        "imagepath": "/familia/tem/",
+        "key": "tem",
+        "language": "es",
+        "link": "temporada",
+        "metadescripcion": null,
+        "path": "/temporada",
+        "quantityclassifications": 20,
+        "quantityrecipes": 14020,
+        "shorttitle": "Temporadas"
+    },
+    {
+        "classifications": [
+            {
+                "icon": "i4003.jpg",
+                "image": "4003.png",
+                "imagepath": "/clasificacion/4003/",
+                "key": 4003,
+                "link": "faciles",
+                "path": "/preferencia/faciles",
+                "shorttitle": "Fáciles",
+                "virtual": null
+            },
+            {
+                "icon": "i3185.jpg",
+                "image": "3185.jpg",
+                "imagepath": "/clasificacion/3185/",
+                "key": 3185,
+                "link": "dietas",
+                "path": "/preferencia/dietas",
+                "shorttitle": "Dietas",
+                "virtual": null
+            },
+            {
+                "icon": "i3338.jpg",
+                "image": "3338.jpg",
+                "imagepath": "/clasificacion/3338/",
+                "key": 3338,
+                "link": "gourmet",
+                "path": "/preferencia/gourmet",
+                "shorttitle": "Vinos y Gourmet",
+                "virtual": null
+            },
+            {
+                "icon": "i3279.jpg",
+                "image": "3279.jpg",
+                "imagepath": "/clasificacion/3279/",
+                "key": 3279,
+                "link": "ninos",
+                "path": "/preferencia/ninos",
+                "shorttitle": "Niños",
+                "virtual": null
+            },
+            {
+                "icon": "i3274.jpg",
+                "image": "3274.png",
+                "imagepath": "/clasificacion/3274/",
+                "key": 3274,
+                "link": "bebes",
+                "path": "/preferencia/bebes",
+                "shorttitle": "Bebés",
+                "virtual": null
+            },
+            {
+                "icon": "i3011.jpg",
+                "image": "3011.jpg",
+                "imagepath": "/clasificacion/3011/",
+                "key": 3011,
+                "link": "diabetes",
+                "path": "/preferencia/diabetes",
+                "shorttitle": "Diabetes",
+                "virtual": null
+            },
+            {
+                "icon": "i4042.jpg",
+                "image": "4042.jpg",
+                "imagepath": "/clasificacion/4042/",
+                "key": 4042,
+                "link": "ninos-sencillas",
+                "path": "/preferencia/ninos-sencillas",
+                "shorttitle": "Niños Sencillas",
+                "virtual": null
+            },
+            {
+                "icon": "i3450.jpg",
+                "image": "3450.png",
+                "imagepath": "/clasificacion/3450/",
+                "key": 3450,
+                "link": "harinas-gamesa",
+                "path": "/preferencia/harinas-gamesa",
+                "shorttitle": "Harinas Gamesa®",
+                "virtual": null
+            },
+            {
+                "icon": "i3579.jpg",
+                "image": "3579.jpg",
+                "imagepath": "/clasificacion/3579/",
+                "key": 3579,
+                "link": "economicas",
+                "path": "/preferencia/economicas",
+                "shorttitle": "Económicas",
+                "virtual": null
+            },
+            {
+                "icon": "i3618.jpg",
+                "image": "3618.png",
+                "imagepath": "/clasificacion/3618/",
+                "key": 3618,
+                "link": "olla-express",
+                "path": "/preferencia/olla-express",
+                "shorttitle": "Olla Express® ",
+                "virtual": null
+            },
+            {
+                "icon": "i3535.jpg",
+                "image": "3535.png",
+                "imagepath": "/clasificacion/3535/",
+                "key": 3535,
+                "link": "fage",
+                "path": "/preferencia/fage",
+                "shorttitle": "Recetas con Yoghurt",
+                "virtual": null
+            },
+            {
+                "icon": "i3748.jpg",
+                "image": "3748.jpg",
+                "imagepath": "/clasificacion/3748/",
+                "key": 3748,
+                "link": "granola",
+                "path": "/preferencia/granola",
+                "shorttitle": "Granola",
+                "virtual": null
+            },
+            {
+                "icon": "i3788.jpg",
+                "image": "3788.jpg",
+                "imagepath": "/clasificacion/3788/",
+                "key": 3788,
+                "link": "recetas-judias",
+                "path": "/preferencia/recetas-judias",
+                "shorttitle": "Recetas Judias ",
+                "virtual": null
+            },
+            {
+                "icon": "i3838.jpg",
+                "image": "3838.jpg",
+                "imagepath": "/clasificacion/3838/",
+                "key": 3838,
+                "link": "rapidas",
+                "path": "/preferencia/rapidas",
+                "shorttitle": "Rápidas",
+                "virtual": null
+            },
+            {
+                "icon": "i3855.jpg",
+                "image": "3855.jpg",
+                "imagepath": "/clasificacion/3855/",
+                "key": 3855,
+                "link": "snacks-saludables",
+                "path": "/preferencia/snacks-saludables",
+                "shorttitle": "Snacks Saludables",
+                "virtual": null
+            },
+            {
+                "icon": "i3860.jpg",
+                "image": "3860.jpg",
+                "imagepath": "/clasificacion/3860/",
+                "key": 3860,
+                "link": "quinoa",
+                "path": "/preferencia/quinoa",
+                "shorttitle": "Quínoa ",
+                "virtual": null
+            },
+            {
+                "icon": "i3891.jpg",
+                "image": "3891.jpg",
+                "imagepath": "/clasificacion/3891/",
+                "key": 3891,
+                "link": "superfoods",
+                "path": "/preferencia/superfoods",
+                "shorttitle": "Superfoods ",
+                "virtual": null
+            },
+            {
+                "icon": "i3933.jpg",
+                "image": "3933.jpg",
+                "imagepath": "/clasificacion/3933/",
+                "key": 3933,
+                "link": "recetas-con-licuadora",
+                "path": "/preferencia/recetas-con-licuadora",
+                "shorttitle": "Recetas con Licuadora",
+                "virtual": null
+            },
+            {
+                "icon": "i3934.jpg",
+                "image": "",
+                "imagepath": "/clasificacion/3934/",
+                "key": 3934,
+                "link": "recetas-caseras",
+                "path": "/preferencia/recetas-caseras",
+                "shorttitle": "Recetas Caseras",
+                "virtual": null
+            }
+        ],
+        "description": "Te invitamos a visitar nuestras distintas recetas por preferencias",
+        "device": "ios",
+        "h1title": "Preferencia",
+        "htmltitle": "Te invitamos a visitar nuestras distintas recetas por preferencias",
+        "icon": "",
+        "image": "pref.jpg",
+        "imagepath": "/familia/pref/",
+        "key": "pref",
+        "language": "es",
+        "link": "preferencia",
+        "metadescripcion": null,
+        "path": "/preferencia",
+        "quantityclassifications": 19,
+        "quantityrecipes": 12922,
+        "shorttitle": "Preferencia"
+    },
+    {
+        "classifications": [
+            {
+                "icon": "i2001.jpg",
+                "image": "2001.jpg",
+                "imagepath": "/clasificacion/2001/",
+                "key": 2001,
+                "link": "mexicana",
+                "path": "/tipo-de-cocina/mexicana",
+                "shorttitle": "Mexicana",
+                "virtual": null
+            },
+            {
+                "icon": "i2027.jpg",
+                "image": "2027.jpg",
+                "imagepath": "/clasificacion/2027/",
+                "key": 2027,
+                "link": "china",
+                "path": "/tipo-de-cocina/china",
+                "shorttitle": "China",
+                "virtual": null
+            },
+            {
+                "icon": "i2008.jpg",
+                "image": "2008.jpg",
+                "imagepath": "/clasificacion/2008/",
+                "key": 2008,
+                "link": "italiana",
+                "path": "/tipo-de-cocina/italiana",
+                "shorttitle": "Italiana",
+                "virtual": null
+            },
+            {
+                "icon": "i2035.jpg",
+                "image": "2035.jpg",
+                "imagepath": "/clasificacion/2035/",
+                "key": 2035,
+                "link": "americana",
+                "path": "/tipo-de-cocina/americana",
+                "shorttitle": "Americana",
+                "virtual": null
+            },
+            {
+                "icon": "i2032.jpg",
+                "image": "2032.jpg",
+                "imagepath": "/clasificacion/2032/",
+                "key": 2032,
+                "link": "japonesa",
+                "path": "/tipo-de-cocina/japonesa",
+                "shorttitle": "Japonesa",
+                "virtual": null
+            },
+            {
+                "icon": "i2014.jpg",
+                "image": "2014.jpg",
+                "imagepath": "/clasificacion/2014/",
+                "key": 2014,
+                "link": "espanola",
+                "path": "/tipo-de-cocina/espanola",
+                "shorttitle": "Española",
+                "virtual": null
+            },
+            {
+                "icon": "i2046.jpg",
+                "image": "2046.jpg",
+                "imagepath": "/clasificacion/2046/",
+                "key": 2046,
+                "link": "argentina",
+                "path": "/tipo-de-cocina/argentina",
+                "shorttitle": "Argentina",
+                "virtual": null
+            },
+            {
+                "icon": "i2021.jpg",
+                "image": "2021.jpg",
+                "imagepath": "/clasificacion/2021/",
+                "key": 2021,
+                "link": "francesa",
+                "path": "/tipo-de-cocina/francesa",
+                "shorttitle": "Francesa",
+                "virtual": null
+            },
+            {
+                "icon": "i2041.jpg",
+                "image": "2041.jpg",
+                "imagepath": "/clasificacion/2041/",
+                "key": 2041,
+                "link": "arabe",
+                "path": "/tipo-de-cocina/arabe",
+                "shorttitle": "Árabe",
+                "virtual": null
+            },
+            {
+                "icon": "i2044.jpg",
+                "image": "2044.jpg",
+                "imagepath": "/clasificacion/2044/",
+                "key": 2044,
+                "link": "india",
+                "path": "/tipo-de-cocina/india",
+                "shorttitle": "India",
+                "virtual": null
+            },
+            {
+                "icon": "i3650.jpg",
+                "image": "3650.jpg",
+                "imagepath": "/clasificacion/3650/",
+                "key": 3650,
+                "link": "alemana",
+                "path": "/tipo-de-cocina/alemana",
+                "shorttitle": "Alemana",
+                "virtual": null
+            },
+            {
+                "icon": "i3651.jpg",
+                "image": "3651.jpg",
+                "imagepath": "/clasificacion/3651/",
+                "key": 3651,
+                "link": "brasilena",
+                "path": "/tipo-de-cocina/brasilena",
+                "shorttitle": "Brasileña",
+                "virtual": null
+            },
+            {
+                "icon": "i2048.jpg",
+                "image": "2048.jpg",
+                "imagepath": "/clasificacion/2048/",
+                "key": 2048,
+                "link": "cubana",
+                "path": "/tipo-de-cocina/cubana",
+                "shorttitle": "Cubana",
+                "virtual": null
+            },
+            {
+                "icon": "i2043.jpg",
+                "image": "2043.jpg",
+                "imagepath": "/clasificacion/2043/",
+                "key": 2043,
+                "link": "griega",
+                "path": "/tipo-de-cocina/griega",
+                "shorttitle": "Griega",
+                "virtual": null
+            },
+            {
+                "icon": "i2055.jpg",
+                "image": "2055.jpg",
+                "imagepath": "/clasificacion/2055/",
+                "key": 2055,
+                "link": "hungara",
+                "path": "/tipo-de-cocina/hungara",
+                "shorttitle": "Húngara",
+                "virtual": null
+            },
+            {
+                "icon": "i2053.jpg",
+                "image": "2053.jpg",
+                "imagepath": "/clasificacion/2053/",
+                "key": 2053,
+                "link": "inglesa",
+                "path": "/tipo-de-cocina/inglesa",
+                "shorttitle": "Inglesa",
+                "virtual": null
+            },
+            {
+                "icon": "i2047.jpg",
+                "image": "2047.jpg",
+                "imagepath": "/clasificacion/2047/",
+                "key": 2047,
+                "link": "internacional",
+                "path": "/tipo-de-cocina/internacional",
+                "shorttitle": "Internacional",
+                "virtual": null
+            },
+            {
+                "icon": "i2045.jpg",
+                "image": "2045.jpg",
+                "imagepath": "/clasificacion/2045/",
+                "key": 2045,
+                "link": "libanesa",
+                "path": "/tipo-de-cocina/libanesa",
+                "shorttitle": "Libanesa",
+                "virtual": null
+            },
+            {
+                "icon": "i2060.jpg",
+                "image": "2060.jpg",
+                "imagepath": "/clasificacion/2060/",
+                "key": 2060,
+                "link": "marroqui",
+                "path": "/tipo-de-cocina/marroqui",
+                "shorttitle": "Marroquí",
+                "virtual": null
+            },
+            {
+                "icon": "i2052.jpg",
+                "image": "2052.jpg",
+                "imagepath": "/clasificacion/2052/",
+                "key": 2052,
+                "link": "mediterranea",
+                "path": "/tipo-de-cocina/mediterranea",
+                "shorttitle": "Mediterránea",
+                "virtual": null
+            },
+            {
+                "icon": "i2049.jpg",
+                "image": "2049.jpg",
+                "imagepath": "/clasificacion/2049/",
+                "key": 2049,
+                "link": "oriental",
+                "path": "/tipo-de-cocina/oriental",
+                "shorttitle": "Oriental",
+                "virtual": null
+            },
+            {
+                "icon": "i2018.jpg",
+                "image": "2018.jpg",
+                "imagepath": "/clasificacion/2018/",
+                "key": 2018,
+                "link": "peruana",
+                "path": "/tipo-de-cocina/peruana",
+                "shorttitle": "Peruana",
+                "virtual": null
+            },
+            {
+                "icon": "i2056.jpg",
+                "image": "2056.jpg",
+                "imagepath": "/clasificacion/2056/",
+                "key": 2056,
+                "link": "rusa",
+                "path": "/tipo-de-cocina/rusa",
+                "shorttitle": "Rusa",
+                "virtual": null
+            },
+            {
+                "icon": "i2054.jpg",
+                "image": "2054.jpg",
+                "imagepath": "/clasificacion/2054/",
+                "key": 2054,
+                "link": "tai",
+                "path": "/tipo-de-cocina/tai",
+                "shorttitle": "Tai",
+                "virtual": null
+            },
+            {
+                "icon": "i3652.jpg",
+                "image": "3652.jpg",
+                "imagepath": "/clasificacion/3652/",
+                "key": 3652,
+                "link": "suiza",
+                "path": "/tipo-de-cocina/suiza",
+                "shorttitle": "Suiza",
+                "virtual": null
+            }
+        ],
+        "description": "Te invitamos a visitar nuestros distintos tipos de cocina",
+        "device": "ios",
+        "h1title": "Tipo de cocina",
+        "htmltitle": "Te invitamos a visitar nuestros distintos tipos de cocina",
+        "icon": "",
+        "image": "coc.jpg",
+        "imagepath": "/familia/coc/",
+        "key": "coc",
+        "language": "es",
+        "link": "tipo-de-cocina",
+        "metadescripcion": null,
+        "path": "/tipo-de-cocina",
+        "quantityclassifications": 25,
+        "quantityrecipes": 17953,
+        "shorttitle": "Tipo de cocina"
+    },
+    {
+        "classifications": [
+            {
+                "icon": "i3580.jpg",
+                "image": "3580.jpg",
+                "imagepath": "/clasificacion/3580/",
+                "key": 3580,
+                "link": "olla-express",
+                "path": "/tipo-de-coccion/olla-express",
+                "shorttitle": "Olla Express®  ",
+                "virtual": null
+            },
+            {
+                "icon": "i3627.jpg",
+                "image": "3627.jpg",
+                "imagepath": "/clasificacion/3627/",
+                "key": 3627,
+                "link": "microondas",
+                "path": "/tipo-de-coccion/microondas",
+                "shorttitle": "Microondas",
+                "virtual": null
+            },
+            {
+                "icon": "i3628.jpg",
+                "image": "3628.jpg",
+                "imagepath": "/clasificacion/3628/",
+                "key": 3628,
+                "link": "al-horno",
+                "path": "/tipo-de-coccion/al-horno",
+                "shorttitle": "Al Horno",
+                "virtual": null
+            },
+            {
+                "icon": "i3629.jpg",
+                "image": "3629.jpg",
+                "imagepath": "/clasificacion/3629/",
+                "key": 3629,
+                "link": "fritas",
+                "path": "/tipo-de-coccion/fritas",
+                "shorttitle": "Fritas",
+                "virtual": null
+            },
+            {
+                "icon": "i3630.jpg",
+                "image": "3630.jpg",
+                "imagepath": "/clasificacion/3630/",
+                "key": 3630,
+                "link": "sin-coccion",
+                "path": "/tipo-de-coccion/sin-coccion",
+                "shorttitle": "Sin Cocción",
+                "virtual": null
+            },
+            {
+                "icon": "i3754.jpg",
+                "image": "3754.jpg",
+                "imagepath": "/clasificacion/3754/",
+                "key": 3754,
+                "link": "en-sarten",
+                "path": "/tipo-de-coccion/en-sarten",
+                "shorttitle": "En Sartén",
+                "virtual": null
+            },
+            {
+                "icon": "i3858.jpg",
+                "image": "3858.jpg",
+                "imagepath": "/clasificacion/3858/",
+                "key": 3858,
+                "link": "al-carbon",
+                "path": "/tipo-de-coccion/al-carbon",
+                "shorttitle": "Al Carbón",
+                "virtual": null
+            },
+            {
+                "icon": "i3859.jpg",
+                "image": "3859.jpg",
+                "imagepath": "/clasificacion/3859/",
+                "key": 3859,
+                "link": "a-la-parrilla",
+                "path": "/tipo-de-coccion/a-la-parrilla",
+                "shorttitle": "A la Parrilla",
+                "virtual": null
+            },
+            {
+                "icon": "i3935.jpg",
+                "image": "",
+                "imagepath": "/clasificacion/3935/",
+                "key": 3935,
+                "link": "al-vapor",
+                "path": "/tipo-de-coccion/al-vapor",
+                "shorttitle": "Al vapor",
+                "virtual": null
+            }
+        ],
+        "description": "Conoce la variedad de recetas que te ofrecemos según el tipo de cocción.",
+        "device": "ios",
+        "h1title": "Tipo de Cocción",
+        "htmltitle": "Conoce la variedad de recetas que te ofrecemos según el tipo de cocción.",
+        "icon": "",
+        "image": "cocc.jpg",
+        "imagepath": "/familia/cocc/",
+        "key": "cocc",
+        "language": "es",
+        "link": "tipo-de-coccion",
+        "metadescripcion": null,
+        "path": "/tipo-de-coccion",
+        "quantityclassifications": 9,
+        "quantityrecipes": 11668,
+        "shorttitle": "Tipo de Cocción"
+    },
+    {
+        "classifications": [
+            {
+                "icon": "",
+                "image": "27.jpg",
+                "imagepath": "/clasificacion/27/",
+                "key": 27,
+                "link": "chocolate",
+                "path": "/recetas/postres/chocolate",
+                "shorttitle": "Chocolate",
+                "virtual": null
+            },
+            {
+                "icon": "",
+                "image": "49.jpg",
+                "imagepath": "/clasificacion/49/",
+                "key": 49,
+                "link": "pollos",
+                "path": "/recetas/carnes-y-aves/pollos",
+                "shorttitle": "Pollos",
+                "virtual": null
+            },
+            {
+                "icon": "",
+                "image": "89.jpg",
+                "imagepath": "/clasificacion/89/",
+                "key": 89,
+                "link": "chiles",
+                "path": "/recetas/guarniciones/verduras/chiles",
+                "shorttitle": "Chiles",
+                "virtual": null
+            },
+            {
+                "icon": "",
+                "image": "76.jpg",
+                "imagepath": "/clasificacion/76/",
+                "key": 76,
+                "link": "arroces",
+                "path": "/recetas/guarniciones/arroces",
+                "shorttitle": "Arroz",
+                "virtual": null
+            },
+            {
+                "icon": "i115.jpg",
+                "image": "115.jpg",
+                "imagepath": "/clasificacion/115/",
+                "key": 115,
+                "link": "pastas",
+                "path": "/recetas/pastas",
+                "shorttitle": "Recetas de Pastas",
+                "virtual": null
+            },
+            {
+                "icon": null,
+                "image": "75.jpg",
+                "imagepath": "/clasificacion/75/",
+                "key": 75,
+                "link": "papas",
+                "path": "/recetas/guarniciones/papas",
+                "shorttitle": "Papas",
+                "virtual": null
+            },
+            {
+                "icon": "",
+                "image": "95.jpg",
+                "imagepath": "/clasificacion/95/",
+                "key": 95,
+                "link": "salmon",
+                "path": "/recetas/pescados-y-mariscos/salmon",
+                "shorttitle": "Salmón",
+                "virtual": null
+            },
+            {
+                "icon": null,
+                "image": "82.jpg",
+                "imagepath": "/clasificacion/82/",
+                "key": 82,
+                "link": "esparragos",
+                "path": "/recetas/guarniciones/verduras/esparragos",
+                "shorttitle": "Espárragos",
+                "virtual": null
+            },
+            {
+                "icon": null,
+                "image": "54.jpg",
+                "imagepath": "/clasificacion/54/",
+                "key": 54,
+                "link": "cerdos",
+                "path": "/recetas/carnes-y-aves/cerdos",
+                "shorttitle": "Cerdos",
+                "virtual": null
+            },
+            {
+                "icon": "i3765.jpg",
+                "image": "3765.jpg",
+                "imagepath": "/clasificacion/3765/",
+                "key": 3765,
+                "link": "pasta-de-hojaldre",
+                "path": "/ingredientes/pasta-de-hojaldre",
+                "shorttitle": "Pasta de Hojaldre",
+                "virtual": null
+            },
+            {
+                "icon": "i3830.jpg",
+                "image": "3830.jpg",
+                "imagepath": "/clasificacion/3830/",
+                "key": 3830,
+                "link": "recetas-con-yogurt",
+                "path": "/ingredientes/recetas-con-yogurt",
+                "shorttitle": "Yogurt",
+                "virtual": null
+            },
+            {
+                "icon": "i3831.jpg",
+                "image": "3831.jpg",
+                "imagepath": "/clasificacion/3831/",
+                "key": 3831,
+                "link": "frutas",
+                "path": "/ingredientes/frutas",
+                "shorttitle": "Frutas",
+                "virtual": null
+            }
+        ],
+        "description": "Recetas por ingredientes",
+        "device": "ios",
+        "h1title": "Ingredientes",
+        "htmltitle": "Ingredientes",
+        "icon": "",
+        "image": "ing.jpg",
+        "imagepath": "/familia/ing/",
+        "key": "ing",
+        "language": "es",
+        "link": "ingredientes",
+        "metadescripcion": null,
+        "path": "/ingredientes",
+        "quantityclassifications": 12,
+        "quantityrecipes": 3161,
+        "shorttitle": "Ingredientes"
+    },
+    {
+        "classifications": [
+            {
+                "icon": "i3981.jpg",
+                "image": "3981.jpg",
+                "imagepath": "/clasificacion/3981/",
+                "key": 3981,
+                "link": "sin-grasa",
+                "path": "/te-cuida/sin-grasa",
+                "shorttitle": "Sin Grasa",
+                "virtual": null
+            },
+            {
+                "icon": "i3983.jpg",
+                "image": "3983.jpg",
+                "imagepath": "/clasificacion/3983/",
+                "key": 3983,
+                "link": "diabetes",
+                "path": "/te-cuida/diabetes",
+                "shorttitle": "Diabetes",
+                "virtual": null
+            },
+            {
+                "icon": "i3984.jpg",
+                "image": "3984.jpg",
+                "imagepath": "/clasificacion/3984/",
+                "key": 3984,
+                "link": "saludables-para-ninos",
+                "path": "/te-cuida/saludables-para-ninos",
+                "shorttitle": "Saludables para niños",
+                "virtual": null
+            },
+            {
+                "icon": "i3988.jpg",
+                "image": "3988.jpg",
+                "imagepath": "/clasificacion/3988/",
+                "key": 3988,
+                "link": "para-subir-las-defensas",
+                "path": "/te-cuida/para-subir-las-defensas",
+                "shorttitle": "Para subir las defensas",
+                "virtual": null
+            },
+            {
+                "icon": "i3989.jpg",
+                "image": "3989.jpg",
+                "imagepath": "/clasificacion/3989/",
+                "key": 3989,
+                "link": "alto-en-proteinas",
+                "path": "/te-cuida/alto-en-proteinas",
+                "shorttitle": "Alto en proteínas",
+                "virtual": null
+            },
+            {
+                "icon": "i3986.jpg",
+                "image": "3986.jpg",
+                "imagepath": "/clasificacion/3986/",
+                "key": 3986,
+                "link": "vegetariana",
+                "path": "/te-cuida/vegetariana",
+                "shorttitle": "Vegetariana",
+                "virtual": null
+            },
+            {
+                "icon": "i3990.jpg",
+                "image": "3990.jpg",
+                "imagepath": "/clasificacion/3990/",
+                "key": 3990,
+                "link": "cenas-saludables",
+                "path": "/te-cuida/cenas-saludables",
+                "shorttitle": "Cenas saludables",
+                "virtual": null
+            },
+            {
+                "icon": "i3982.jpg",
+                "image": "3982.jpg",
+                "imagepath": "/clasificacion/3982/",
+                "key": 3982,
+                "link": "hipertension",
+                "path": "/te-cuida/hipertension",
+                "shorttitle": "Hipertensión",
+                "virtual": null
+            },
+            {
+                "icon": "i3980.jpg",
+                "image": "3980.jpg",
+                "imagepath": "/clasificacion/3980/",
+                "key": 3980,
+                "link": "keto",
+                "path": "/te-cuida/keto",
+                "shorttitle": "Keto",
+                "virtual": null
+            },
+            {
+                "icon": "i3985.jpg",
+                "image": "3985.jpg",
+                "imagepath": "/clasificacion/3985/",
+                "key": 3985,
+                "link": "familia-sana",
+                "path": "/te-cuida/familia-sana",
+                "shorttitle": "Familia sana ",
+                "virtual": null
+            },
+            {
+                "icon": "i3991.jpg",
+                "image": "3991.jpg",
+                "imagepath": "/clasificacion/3991/",
+                "key": 3991,
+                "link": "alto-en-fibra",
+                "path": "/te-cuida/alto-en-fibra",
+                "shorttitle": "Alto en Fibra",
+                "virtual": null
+            },
+            {
+                "icon": "i3992.jpg",
+                "image": "3992.jpg",
+                "imagepath": "/clasificacion/3992/",
+                "key": 3992,
+                "link": "rico-en-omega-3",
+                "path": "/te-cuida/rico-en-omega-3",
+                "shorttitle": "Rico en Omega 3",
+                "virtual": null
+            },
+            {
+                "icon": "i3529.jpg",
+                "image": "3529.jpg",
+                "imagepath": "/clasificacion/3529/",
+                "key": 3529,
+                "link": "postres-saludables",
+                "path": "/preferencia/dietas/recetas-para-bajar-de-peso/postres-saludables",
+                "shorttitle": "Postres Saludables",
+                "virtual": null
+            },
+            {
+                "icon": "i3994.jpg",
+                "image": null,
+                "imagepath": "/clasificacion/3994/",
+                "key": 3994,
+                "link": "anti-envejecimiento",
+                "path": "/te-cuida/anti-envejecimiento",
+                "shorttitle": "Anti envejecimiento",
+                "virtual": null
+            },
+            {
+                "icon": "i3995.jpg",
+                "image": null,
+                "imagepath": "/clasificacion/3995/",
+                "key": 3995,
+                "link": "anti-cansancio",
+                "path": "/te-cuida/anti-cansancio",
+                "shorttitle": "Anti cansancio",
+                "virtual": null
+            },
+            {
+                "icon": "i3996.jpg",
+                "image": null,
+                "imagepath": "/clasificacion/3996/",
+                "key": 3996,
+                "link": "libre-de-gluten",
+                "path": "/te-cuida/libre-de-gluten",
+                "shorttitle": "Libre de gluten",
+                "virtual": null
+            },
+            {
+                "icon": "i3997.jpg",
+                "image": null,
+                "imagepath": "/clasificacion/3997/",
+                "key": 3997,
+                "link": "menopausia",
+                "path": "/te-cuida/menopausia",
+                "shorttitle": "Menopausia",
+                "virtual": null
+            },
+            {
+                "icon": "i3998.jpg",
+                "image": null,
+                "imagepath": "/clasificacion/3998/",
+                "key": 3998,
+                "link": "desayunos-saludables",
+                "path": "/te-cuida/desayunos-saludables",
+                "shorttitle": "Desayunos saludables",
+                "virtual": null
+            },
+            {
+                "icon": "i3999.png",
+                "image": "3999.jpg",
+                "imagepath": "/clasificacion/3999/",
+                "key": 3999,
+                "link": "saludables-economicas",
+                "path": "/te-cuida/saludables-economicas",
+                "shorttitle": "Saludables económicas",
+                "virtual": null
+            },
+            {
+                "icon": "i4000.png",
+                "image": "4000.jpg",
+                "imagepath": "/clasificacion/4000/",
+                "key": 4000,
+                "link": "para-adolescentes",
+                "path": "/te-cuida/para-adolescentes",
+                "shorttitle": "Para adolescentes ",
+                "virtual": null
+            },
+            {
+                "icon": "i4142.png",
+                "image": "4142.jpg",
+                "imagepath": "/clasificacion/4142/",
+                "key": 4142,
+                "link": "dieta-paleo",
+                "path": "/te-cuida/dieta-paleo",
+                "shorttitle": "Dieta paleo",
+                "virtual": null
+            },
+            {
+                "icon": "i4143.png",
+                "image": "4143.jpg",
+                "imagepath": "/clasificacion/4143/",
+                "key": 4143,
+                "link": "para-aumentar-masa-muscular",
+                "path": "/te-cuida/para-aumentar-masa-muscular",
+                "shorttitle": "Para aumentar masa muscular ",
+                "virtual": null
+            },
+            {
+                "icon": "i4144.png",
+                "image": "4144.jpg",
+                "imagepath": "/clasificacion/4144/",
+                "key": 4144,
+                "link": "recetas-veganas",
+                "path": "/te-cuida/recetas-veganas",
+                "shorttitle": "Recetas veganas",
+                "virtual": null
+            }
+        ],
+        "description": "Kiwilimon Te Cuida",
+        "device": "ios",
+        "h1title": "Te Cuida",
+        "htmltitle": "Te Cuida",
+        "icon": "icuida.jpg",
+        "image": "cuida.jpg",
+        "imagepath": "/familia/cuida/",
+        "key": "cuida",
+        "language": "es",
+        "link": "te-cuida",
+        "metadescripcion": null,
+        "path": "/te-cuida",
+        "quantityclassifications": 23,
+        "quantityrecipes": 699,
+        "shorttitle": "Te Cuida"
+    }
+]
