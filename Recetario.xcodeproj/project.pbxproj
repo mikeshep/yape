@@ -16,6 +16,8 @@
 		38ED1797294A519C004F7C89 /* RecetarioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ED1796294A519C004F7C89 /* RecetarioTests.swift */; };
 		38ED17A1294A519C004F7C89 /* RecetarioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ED17A0294A519C004F7C89 /* RecetarioUITests.swift */; };
 		38ED17A3294A519C004F7C89 /* RecetarioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ED17A2294A519C004F7C89 /* RecetarioUITestsLaunchTests.swift */; };
+		38ED17B3294A75B4004F7C89 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ED17B2294A75B4004F7C89 /* Category.swift */; };
+		38ED17B5294A76A5004F7C89 /* Classification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ED17B4294A76A5004F7C89 /* Classification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		38ED179C294A519C004F7C89 /* RecetarioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecetarioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38ED17A0294A519C004F7C89 /* RecetarioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecetarioUITests.swift; sourceTree = "<group>"; };
 		38ED17A2294A519C004F7C89 /* RecetarioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecetarioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		38ED17B2294A75B4004F7C89 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		38ED17B4294A76A5004F7C89 /* Classification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		38ED177E294A519A004F7C89 /* Recetario */ = {
 			isa = PBXGroup;
 			children = (
+				38ED17B1294A7594004F7C89 /* Domain */,
 				38ED177F294A519A004F7C89 /* AppDelegate.swift */,
 				38ED1781294A519A004F7C89 /* SceneDelegate.swift */,
 				38ED1783294A519A004F7C89 /* ViewController.swift */,
@@ -125,6 +130,15 @@
 				38ED17A2294A519C004F7C89 /* RecetarioUITestsLaunchTests.swift */,
 			);
 			path = RecetarioUITests;
+			sourceTree = "<group>";
+		};
+		38ED17B1294A7594004F7C89 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				38ED17B2294A75B4004F7C89 /* Category.swift */,
+				38ED17B4294A76A5004F7C89 /* Classification.swift */,
+			);
+			path = Domain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38ED17B3294A75B4004F7C89 /* Category.swift in Sources */,
 				38ED1784294A519A004F7C89 /* ViewController.swift in Sources */,
 				38ED1780294A519A004F7C89 /* AppDelegate.swift in Sources */,
 				38ED1782294A519A004F7C89 /* SceneDelegate.swift in Sources */,
+				38ED17B5294A76A5004F7C89 /* Classification.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
