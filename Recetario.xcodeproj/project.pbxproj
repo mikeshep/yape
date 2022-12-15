@@ -260,14 +260,13 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
-		38E32324294ACDA400758630 /* Networking */ = {
+		38E32324294ACDA400758630 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				38E32338294AD3B600758630 /* Core */,
 				38E32335294AD39400758630 /* Error */,
 				38E32328294ACF6000758630 /* Services */,
 			);
-			path = Networking;
+			path = Data;
 			sourceTree = "<group>";
 		};
 		38E32325294ACDEA00758630 /* Repositories */ = {
@@ -320,6 +319,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		38E32359294B0C0600758630 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				38E32338294AD3B600758630 /* Core */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		38ED1773294A519A004F7C89 = {
 			isa = PBXGroup;
 			children = (
@@ -344,7 +351,8 @@
 		38ED177E294A519A004F7C89 /* Recetario */ = {
 			isa = PBXGroup;
 			children = (
-				38E32324294ACDA400758630 /* Networking */,
+				38E32359294B0C0600758630 /* Network */,
+				38E32324294ACDA400758630 /* Data */,
 				38ED17D0294A855B004F7C89 /* Presentation */,
 				38ED17B1294A7594004F7C89 /* Domain */,
 				38ED177F294A519A004F7C89 /* AppDelegate.swift */,
