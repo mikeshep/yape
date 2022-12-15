@@ -22,10 +22,12 @@ class RecipeCategoriesViewModel {
     private let output: RecipeCategoriesViewModelOutput
     private var subscriptions = Set<AnyCancellable>()
     private var items = [Category]()
+    private weak var coordinator: Coordinator?
     
-    init(getCategoriesUseCase: GetCategoriesUseCaseProtocol, output: RecipeCategoriesViewModelOutput) {
+    init(getCategoriesUseCase: GetCategoriesUseCaseProtocol, output: RecipeCategoriesViewModelOutput, coordinator: Coordinator) {
         self.getCategoriesUseCase = getCategoriesUseCase
         self.output = output
+        self.coordinator = coordinator
     }
     
     func bind(input: RecipeCategoriesViewModelInput) -> RecipeCategoriesViewModelOutput {
@@ -53,6 +55,6 @@ class RecipeCategoriesViewModel {
 
     func routeToRecipeList(indexPath: (Int, Int)) {
         let item = items[indexPath.0].classifications[indexPath.1]
-        item.key
+        coordinator?.goToRecipeList(key: item.key)
     }
 }

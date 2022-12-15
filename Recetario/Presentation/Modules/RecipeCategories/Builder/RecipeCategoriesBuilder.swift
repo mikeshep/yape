@@ -8,16 +8,16 @@
 import Foundation
 import UIKit
 
-struct RecipeCategoriesBuilder {
-    static func build() -> UINavigationController {
+enum RecipeCategoriesBuilder {
+    static func build(coordinator: Coordinator) -> UIViewController {
         let recipeRepository = RecipeService()
         let useCase = GetCategoriesUseCase(requestValue: (), recipeRepository: recipeRepository)
         let output = RecipeCategoriesViewModelOutput()
         let input = RecipeCategoriesViewModelInput()
-        let viewModel = RecipeCategoriesViewModel(getCategoriesUseCase: useCase, output: output)
+        let viewModel = RecipeCategoriesViewModel(getCategoriesUseCase: useCase, output: output, coordinator: coordinator)
         let view = RecipeCategoriesViewController(nibName: "RecipeCategoriesViewController", bundle: nil)
         view.viewModel = viewModel
         view.input = input
-        return UINavigationController(rootViewController: view)
+        return view
     }
 }

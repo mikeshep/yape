@@ -15,10 +15,18 @@ protocol RecipeItemCollectionViewCellDataSource {
 
 class RecipeItemCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var coverImageView: UIImageView!
+    @IBOutlet weak var coverImageView: UIImageView! {
+        didSet {
+            coverImageView.layer.cornerRadius = 10
+        }
+    }
 
     override func awakeFromNib() {
         super.awakeFromNib()
+        layer.shadowColor = UIColor.black.cgColor
+        layer.shadowOpacity = 1
+        layer.shadowOffset = .zero
+        layer.shadowRadius = 10
     }
 
     func configure(dataSource: RecipeItemCollectionViewCellDataSource) {
@@ -33,7 +41,13 @@ extension ShortRecipe: RecipeItemCollectionViewCellDataSource {
     }
 
     var url: URL? {
-        let cdn = "https://cdn7.kiwilimon.com/\(k)/300x400/\(image ?? "").jpg"
+        var cdn: String
+        switch k {
+        case .integer(let int):
+            cdn = "https://cdn7.kiwilimon.com/recetaimagen/\(int)/300x400/\(image ?? "").jpg"
+        case .string(let string):
+            cdn = "https://cdn7.kiwilimon.com/recetaimagen/\(string)/300x400/\(image ?? "").jpg"
+        }
         return URL(string: cdn)
     }
 }

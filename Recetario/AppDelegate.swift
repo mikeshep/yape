@@ -11,14 +11,17 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var appCoordinator : AppCoordinator?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
         self.window = self.window ?? UIWindow()
-        self.window!.backgroundColor = UIColor.red
-        self.window!.rootViewController = RecipeCategoriesBuilder.build()
-        self.window!.makeKeyAndVisible()
+        let navigationCon = UINavigationController.init()
+        appCoordinator = AppCoordinator(navigationController: navigationCon)
+        appCoordinator!.start()
+        window!.rootViewController = navigationCon
+        window!.makeKeyAndVisible()
         return true
     }
 }
