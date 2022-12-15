@@ -13,32 +13,34 @@ struct RecipeListViewModelInput {
 }
 
 struct RecipeListViewModelOutput {
-    
+    let items = PassthroughSubject<[Category], Error>()
 }
 
 class RecipeListViewModel {
-    private let getClassificationsUseCase: GetCategoriesUseCaseProtocol
+    private let getCategoriesUseCase: GetCategoriesUseCaseProtocol
     private let output: RecipeListViewModelOutput
     private var subscriptions = Set<AnyCancellable>()
-
-    init(getClassificationsUseCase: GetCategoriesUseCaseProtocol, output: RecipeListViewModelOutput) {
-        self.getClassificationsUseCase = getClassificationsUseCase
+    
+    init(getCategoriesUseCase: GetCategoriesUseCaseProtocol, output: RecipeListViewModelOutput) {
+        self.getCategoriesUseCase = getCategoriesUseCase
         self.output = output
     }
-
+    
     func bind(input: RecipeListViewModelInput) -> RecipeListViewModelOutput {
         input.viewDidLoadPublisher
-            .sink { _ in
-                Task {
-                    do {
-                        let classifications = try await self.getClassificationsUseCase.execute()
-                        debugPrint(classifications)
-                    } catch {
-                        debugPrint("Error \(error)")
-                    }
-                }
-            }
+            .sink(receiveValue: getCategories)
             .store(in: &subscriptions)
         return output
+    }
+    
+    func getCategories(){
+        Task {
+            do {
+                let categories = try await self.getCategoriesUseCase.execute()
+                self.output.items.send(categories)
+            } catch {
+                self.output.items.send(completion: .failure(error))
+            }
+        }
     }
 }
