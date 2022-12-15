@@ -1,6 +1,6 @@
 **APIs needed**
 
-![](RackMultipart20221215-1-vzg4s3_html_1505e633d001c2d6.png)
+![alt text](https://github.com/mikeshep/yape/blob/main/readme_source/high_level_client.jpg?raw=true)
 
 _High-level Client/Server system architecture_
 
@@ -20,7 +20,7 @@ Entre las ventajas que tiene MVVM - Clean:
 - Una de las reglas que se deben de seguir es hacer que la regla de inyección de dependencias se cumpla como en el diagrama. En otras palabras, la capa de Dominio no debe tener ningún import de UIKi
 - Uso de principios SOLID
 
-![](RackMultipart20221215-1-vzg4s3_html_febea557f5b8597a.png)
+![alt text](https://github.com/mikeshep/yape/blob/main/readme_source/high_level_solution.jpg?raw=true)
 
 **Presentation Layer**
 
@@ -40,7 +40,7 @@ La capa de Datos depende enteramente de la capa de Dominio
 
 **Modules**
 
-![](RackMultipart20221215-1-vzg4s3_html_262e8d6f49304827.png)
+![alt text](https://github.com/mikeshep/yape/blob/main/readme_source/modules.jpg?raw=true)
 
 La aplicación se divide en 3 módulos:
 
@@ -67,7 +67,7 @@ Entre los diversos patrones de diseño, los más comunes que hay en la app son:
 
 **Components and Layers**
 
-![](RackMultipart20221215-1-vzg4s3_html_2f16ab9493fa4c46.png)
+![alt text](https://github.com/mikeshep/yape/blob/main/readme_source/mvvm_moduñe.jpg?raw=true)
 
 **Libraries**
 
