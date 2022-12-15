@@ -1,0 +1,332 @@
+{
+  "bc": [
+    {
+      "n": "Inicio",
+      "p": "/"
+    },
+    {
+      "n": "Recetas",
+      "p": "/recetas"
+    },
+    {
+      "n": "Postres",
+      "p": "/recetas/postres"
+    },
+    {
+      "n": "Pastel de Chocolate Relleno de Crema Pastelera",
+      "p": "/receta/postres/pastel-de-chocolate-relleno-de-crema-pastelera"
+    }
+  ],
+  "calories": 1239,
+  "classification": 1,
+  "classificationname": "Postres",
+  "classificationpath": "/recetas/postres",
+  "client": 170167,
+  "clientdata": {
+    "avatar": "https://cdn7.kiwilimon.com/kiwilimon/static/icono-usuario.svg",
+    "ckey": 170167,
+    "experience": null,
+    "firstname": "Gabriela",
+    "lastname": "Morales",
+    "path": "/chef/7083816150",
+    "speciality": null
+  },
+  "cooked": null,
+  "cooktime": 30,
+  "cooktimestr": "30 mins",
+  "cuisinename": "Internacional",
+  "description": "¿Estás buscando recetas de pasteles rellenos? Este Pastel de Chocolate Relleno de Crema Pastelera es un delicioso postre que es muy fácil de hacer. Esta rica receta combina los sabores de la tradicional crema pastelera de vainilla con el chocolate amargo del bizcocho. <br><br> Para que este Pastel de Chocolate Relleno de Crema Pastelera no sea tan empalagoso, agregamos algunas fresas al relleno y en la decoración. ¿Para qué evento te gustará preparar este pastel?",
+  "device": "ios",
+  "difficulty": 1,
+  "favorites": 1811,
+  "htmltitle": "Pastel de Chocolate Relleno de Crema Pastelera",
+  "image": "36570.jpg",
+  "images": [
+    {
+      "client": 170167,
+      "clientdata": {
+        "avatar": "https://cdn7.kiwilimon.com/kiwilimon/static/icono-usuario.svg",
+        "ckey": 170167,
+        "firstname": "Gabriela",
+        "lastname": "Morales",
+        "path": "/chef/7083816150"
+      },
+      "ikey": 36570,
+      "image": "36570.jpg"
+    },
+    {
+      "client": 170167,
+      "clientdata": {
+        "avatar": "https://cdn7.kiwilimon.com/kiwilimon/static/icono-usuario.svg",
+        "ckey": 170167,
+        "firstname": "Gabriela",
+        "lastname": "Morales",
+        "path": "/chef/7083816150"
+      },
+      "ikey": 36571,
+      "image": "36571.jpg"
+    }
+  ],
+  "ingredients": [
+    {
+      "ikey": 357083,
+      "text": "4 huevos"
+    },
+    {
+      "ikey": 357084,
+      "text": "1 taza de azúcar"
+    },
+    {
+      "ikey": 357085,
+      "text": "1 1/2 tazas de mantequilla, fundida"
+    },
+    {
+      "ikey": 357086,
+      "text": "1 1/4 tazas de leche de vaca"
+    },
+    {
+      "ikey": 357087,
+      "text": "1 cucharadita de vainilla líquida"
+    },
+    {
+      "ikey": 357088,
+      "text": "2 1/4 tazas de harina"
+    },
+    {
+      "ikey": 357089,
+      "text": "1/2 tazas de cocoa"
+    },
+    {
+      "ikey": 357090,
+      "text": "3 cucharaditas de polvo para hornear"
+    },
+    {
+      "ikey": 357091,
+      "text": "1/8 cucharaditas de sal"
+    },
+    {
+      "ikey": 357092,
+      "text": "4 yemas de huevo, para la crema pastelera"
+    },
+    {
+      "ikey": 357093,
+      "text": "1 taza de azúcar, para la crema pastelera"
+    },
+    {
+      "ikey": 357094,
+      "text": "4 cucharadas de fécula de maíz, para la crema pastelera"
+    },
+    {
+      "ikey": 357095,
+      "text": "3 cucharadas de vainilla líquida, para la crema pastelera"
+    },
+    {
+      "ikey": 357096,
+      "text": "2 tazas de leche de vaca, para la crema pastelera"
+    },
+    {
+      "ikey": 357097,
+      "text": "1 taza de crema para batir, para la crema pastelera"
+    },
+    {
+      "ikey": 357098,
+      "text": "1 cucharada de ralladura de limón amarillo, para la crema pastelera"
+    },
+    {
+      "ikey": 357099,
+      "text": "2 sobres de grenetina, para la crema pastelera (7 g/u), hidratada y fundida"
+    },
+    {
+      "ikey": 357100,
+      "text": "1 taza de fresa, lavadas y desinfectadas (cortadas en cubitos)"
+    },
+    {
+      "ikey": 357101,
+      "text": "2 paquetes de queso crema, (190 g c/u) para el betún"
+    },
+    {
+      "ikey": 357102,
+      "text": "1 taza de crema de avellanas, para el betún"
+    },
+    {
+      "ikey": 357103,
+      "text": "3 tazas de chocolate amargo, para la cobertura"
+    },
+    {
+      "ikey": 357104,
+      "text": "2 cucharadas de mantequilla, para la cobertura"
+    },
+    {
+      "ikey": 357105,
+      "text": "2 cucharadas de miel de abeja, para la cobertura"
+    },
+    {
+      "ikey": 357106,
+      "text": " al gusto de fresa, para decorar"
+    },
+    {
+      "ikey": 357107,
+      "text": " al gusto de menta, para decorar"
+    },
+    {
+      "ikey": 357108,
+      "text": " al gusto de polvo dorado comestible, para decorar"
+    }
+  ],
+  "key": 31770,
+  "keywords": null,
+  "language": "es",
+  "level": 0,
+  "link": "pastel-de-chocolate-relleno-de-crema-pastelera",
+  "materials": [],
+  "metadescription": "El mejor Pastel de Chocolate Relleno de Crema Pastelera es este",
+  "name": "Pastel de Chocolate Relleno de Crema Pastelera",
+  "nutrients": [
+    {
+      "daily": 2000,
+      "metric": "kcal",
+      "name": "Energía",
+      "nkey": "208",
+      "order": 1,
+      "percent": 15.56,
+      "quantity100": 311.2
+    },
+    {
+      "daily": 300,
+      "metric": "g",
+      "name": "Carbohidrato, por diferencia",
+      "nkey": "205",
+      "order": 2,
+      "percent": 9.13,
+      "quantity100": 27.4
+    },
+    {
+      "daily": 50,
+      "metric": "g",
+      "name": "Proteína",
+      "nkey": "203",
+      "order": 3,
+      "percent": 9.2,
+      "quantity100": 4.6
+    },
+    {
+      "daily": 65,
+      "metric": "g",
+      "name": "Lípidos totales (grasas)",
+      "nkey": "204",
+      "order": 4,
+      "percent": 32,
+      "quantity100": 20.8
+    },
+    {
+      "daily": null,
+      "metric": null,
+      "name": null,
+      "nkey": "999",
+      "order": 999,
+      "percent": null,
+      "quantity100": "100"
+    }
+  ],
+  "path": "/receta/postres/pastel-de-chocolate-relleno-de-crema-pastelera",
+  "portions": 10,
+  "prating": "95.0%",
+  "presentation": "Sobre una base para pastel, decorado con fresas, y menta.\t",
+  "product": null,
+  "published": "2018-07-04T09:45:57.160244Z",
+  "rating": 4.75,
+  "recommended": null,
+  "review": 16,
+  "revised": null,
+  "status": 1,
+  "steps": [
+    {
+      "skey": 286440,
+      "text": "Precalienta el horno a 170°C.\r\n"
+    },
+    {
+      "skey": 286441,
+      "text": "Para el pastel, bate los huevos con el azúcar y agrega la mantequilla, la leche y la esencia de vainilla, bate hasta integrar. Añade poco a poco sin dejar de batir la harina, la cocoa, el polvo para hornear y la sal. \r\n"
+    },
+    {
+      "skey": 286442,
+      "text": "Vierte la mezcla en una charola para horno previamente engrasada y enharinada, hornea por 15 minutos y enfría.\r\n"
+    },
+    {
+      "skey": 286443,
+      "text": "Con ayuda de un aro para pastelería de 15 cm de diámetro, corta 3 discos de pastel. Reserva dos discos completos y con ayuda de un plato de 10 cm de diámetro corta el centro del tercer disco y reserva. \r\n"
+    },
+    {
+      "skey": 286444,
+      "text": "Para la crema pastelera, en un bowl mezcla las yemas con el azúcar, la fécula de maíz y la esencia de vainilla. \r\n"
+    },
+    {
+      "skey": 286445,
+      "text": "En una olla calienta la leche a fuego medio, agrega una cucharada de leche caliente a la mezcla de yemas y bate para temperar. Agrega las yemas a la olla y cocina a fuego bajo moviendo constantemente hasta espesar. Enfría de inmediato. \r\n\r\n"
+    },
+    {
+      "skey": 286446,
+      "text": "Refrigera la crema pastelera tapada con plástico antiadherente hasta que tenga una consistencia espesa y firme. \r\n"
+    },
+    {
+      "skey": 286447,
+      "text": "Mientras tanto, bate la crema para bate con la ralladura de limón amarillo hasta que doble su volumen y reserva."
+    },
+    {
+      "skey": 286448,
+      "text": "Una vez que la crema pastelera esté firme, bate con ayuda de una batidora hasta deshacer los grumos, añade poco a poco la crema batida y bate suavemente. Agrega en forma de hilo la grenetina y continúa batiendo hasta integrar por completo. \r\n"
+    },
+    {
+      "skey": 286449,
+      "text": "Para el armado, coloca un bizcocho de pastel en el aro seguido del bizcocho al que le retiraste el centro. Vierte la mezcla de la crema pastelera en el centro y las fresas en cubitos, extiende con ayuda de una espátula escalonada. Cubre con el otro bizcocho y refrigera 1 hora.  \r\n"
+    },
+    {
+      "skey": 286450,
+      "text": "Para el betún, bate el queso crema con la crema de avellanas hasta tener un betún suave y terso.\r\n\r\n\r\n"
+    },
+    {
+      "skey": 286451,
+      "text": "Para la cobertura, en un bowl mezcla la crema para batir caliente con la mantequilla y la miel de abeja, enfría.  "
+    },
+    {
+      "skey": 286452,
+      "text": "Cubre el pastel con el betún y alisa con ayuda de una espátula escalonada. Refrigera 20 minutos o hasta que el betún esté firme. "
+    },
+    {
+      "skey": 286453,
+      "text": "Una vez que el betún esté firme, vierte de golpe la cobertura y extiende con una espátula para cubrir por completo el pastel. Decora con las fresas, menta y polvo dorado comestible, deja secar y sirve. \r\n"
+    }
+  ],
+  "tecuida": false,
+  "time": 180,
+  "timestr": "3h",
+  "tips": "Para desmoldar de una manera más fácil tu pastel, coloca papel aluminio en a base de un aro de repostería. Hornea el pastel a 170°C, es la temperatura ideal para que no se reviente.\r\nPrepara tu crema pastelera un día antes para que tenga la consistencia cuando vayas a rellenar el pastel.\r\n",
+  "titleh1": "Pastel de Chocolate Relleno de Crema Pastelera",
+  "totaltime": 210,
+  "totaltimestr": "3h 30 mins",
+  "video": {
+    "description": "Este es un postre perfecto lleno de sabor, suave y humectado en cada bocado.  La combinación de chocolate, fresas y crema pastelera seguro te encnatará.",
+    "duration": 198,
+    "height": 720,
+    "name": "Video de Pastel de Chocolate con Crema Pastelera",
+    "player": "B1xDbuGM",
+    "thumb": "4174.jpg",
+    "videoid": "5805307170001",
+    "vkey": 4174,
+    "width": 720
+  },
+  "videos": [
+    {
+      "description": "Este es un postre perfecto lleno de sabor, suave y humectado en cada bocado.  La combinación de chocolate, fresas y crema pastelera seguro te encnatará.",
+      "duration": 198,
+      "height": 720,
+      "name": "Video de Pastel de Chocolate con Crema Pastelera",
+      "player": "B1xDbuGM",
+      "thumb": "4174.jpg",
+      "videoid": "5805307170001",
+      "vkey": 4174,
+      "width": 720
+    }
+  ],
+  "view": 85136
+}

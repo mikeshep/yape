@@ -15,7 +15,7 @@ struct Recipe: Codable {
     let classificationname, classificationpath: String
     let client: Int
     let clientdata: RecipeClientdata
-    let cooked, cooktime: Int
+    let cooked, cooktime: Int?
     let cooktimestr, cuisinename, recipeDescription, device: String
     let difficulty, favorites: Int
     let htmltitle, image: String
@@ -30,9 +30,9 @@ struct Recipe: Codable {
     let path: String
     let portions: Int
     let prating, presentation: String
-    let published: Date
-    let rating: Int
-    let revised, status: Int
+    let published: String
+    let rating: Double
+    let revised, status: Int?
     let steps: [Step]
     let tecuida: Bool
     let time: Int

@@ -33,6 +33,7 @@
 		38E3234B294AEBB100758630 /* RecipeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E3234A294AEBB100758630 /* RecipeBuilder.swift */; };
 		38E3234D294AEC7D00758630 /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E3234C294AEC7D00758630 /* RecipeViewModel.swift */; };
 		38E3234F294AECD300758630 /* GetRecipeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E3234E294AECD300758630 /* GetRecipeUseCase.swift */; };
+		38E32353294B001B00758630 /* recipe_response_ok.json in Resources */ = {isa = PBXBuildFile; fileRef = 38E32352294AFFC000758630 /* recipe_response_ok.json */; };
 		38ED1780294A519A004F7C89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ED177F294A519A004F7C89 /* AppDelegate.swift */; };
 		38ED1789294A519C004F7C89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38ED1788294A519C004F7C89 /* Assets.xcassets */; };
 		38ED178C294A519C004F7C89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38ED178A294A519C004F7C89 /* LaunchScreen.storyboard */; };
@@ -111,6 +112,7 @@
 		38E3234A294AEBB100758630 /* RecipeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeBuilder.swift; sourceTree = "<group>"; };
 		38E3234C294AEC7D00758630 /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
 		38E3234E294AECD300758630 /* GetRecipeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRecipeUseCase.swift; sourceTree = "<group>"; };
+		38E32352294AFFC000758630 /* recipe_response_ok.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recipe_response_ok.json; sourceTree = "<group>"; };
 		38ED177C294A519A004F7C89 /* Recetario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recetario.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38ED177F294A519A004F7C89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38ED1788294A519C004F7C89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -335,6 +337,7 @@
 				38ED17B1294A7594004F7C89 /* Domain */,
 				38ED177F294A519A004F7C89 /* AppDelegate.swift */,
 				38ED17CE294A7FD4004F7C89 /* classifications_response_200.json */,
+				38E32352294AFFC000758630 /* recipe_response_ok.json */,
 				38ED1788294A519C004F7C89 /* Assets.xcassets */,
 				38ED178A294A519C004F7C89 /* LaunchScreen.storyboard */,
 				38ED178D294A519C004F7C89 /* Info.plist */,
@@ -598,6 +601,7 @@
 				38ED17E6294A9368004F7C89 /* RecipeCollectionViewCell.xib in Resources */,
 				38ED17E2294A935D004F7C89 /* TopRecipeCollectionViewCell.xib in Resources */,
 				38ED17CF294A7FD4004F7C89 /* classifications_response_200.json in Resources */,
+				38E32353294B001B00758630 /* recipe_response_ok.json in Resources */,
 				38ED1789294A519C004F7C89 /* Assets.xcassets in Resources */,
 				3880A4E1294AA4D900AAB9D1 /* BottomTitleCollectionReusableView.xib in Resources */,
 				38E3231E294AC84400758630 /* RecipeListViewController.xib in Resources */,

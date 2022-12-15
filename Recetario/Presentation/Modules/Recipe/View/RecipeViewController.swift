@@ -36,6 +36,7 @@ class RecipeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         bind()
+        input.viewDidLoadPublisher.send(())
     }
 
     func bind() {

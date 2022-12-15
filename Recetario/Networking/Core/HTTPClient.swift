@@ -42,9 +42,7 @@ extension HTTPClient {
             }
             switch response.statusCode {
             case 200...299:
-                guard let decodedResponse = try? JSONDecoder().decode(responseModel, from: data) else {
-                    throw RecipeServiceError.decode
-                }
+                let decodedResponse = try JSONDecoder().decode(responseModel, from: data)
                 return decodedResponse
             case 401:
                 throw RecipeServiceError.unauthorised
@@ -53,6 +51,8 @@ extension HTTPClient {
             }
         } catch URLError.Code.notConnectedToInternet {
             throw RecipeServiceError.offline
+        } catch let error where error is DecodingError {
+            throw RecipeServiceError.decode
         }
     }
 }
