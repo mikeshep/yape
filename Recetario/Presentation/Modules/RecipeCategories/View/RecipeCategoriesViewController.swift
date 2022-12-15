@@ -65,28 +65,43 @@ class RecipeCategoriesViewController: UIViewController {
         output
             .items
             .receive(on: DispatchQueue.main)
-            .sink { error in
-                debugPrint(error)
+            .sink { completion in
+                if case let .failure(error) = completion {
+                    self.show(error: error)
+                }
             } receiveValue: { categories in
                 self.categories = categories
             }
             .store(in: &subscriptions)
     }
-
-    func show(error: Error) {
-        let alert = UIAlertController(title: "Error",
-                                      message: error.localizedDescription,
-                                      preferredStyle: .alert)
-        present(alert, animated: true)
-    }
 }
 
 extension RecipeCategoriesViewController: UICollectionViewDelegate {
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        switch collectionView {
+        case topCollectionView:
+            let value = (categories.count - 1, indexPath.row)
+            input.didSelectItemPublisher.send(value)
+        case self.collectionView:
+            let value = (indexPath.section, indexPath.row)
+            input.didSelectItemPublisher.send(value)
+        default:
+            show(error: RecipeServiceError.unknown)
+        }
+    }
 }
 
 extension RecipeCategoriesViewController: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         
+    }
+}
+
+extension UIViewController {
+    func show(error: Error) {
+        let alert = UIAlertController(title: "Error",
+                                      message: error.localizedDescription,
+                                      preferredStyle: .alert)
+        present(alert, animated: true)
     }
 }

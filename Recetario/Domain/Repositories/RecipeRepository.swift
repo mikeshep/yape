@@ -10,4 +10,6 @@ import Foundation
 protocol RecipeRepository {
     func fetchCategories() async throws -> [Category]
     func fetchSuggestions(string: String) async throws -> [Suggestion]
+    func fetchSearch(q: String) async throws -> ShortsRecipe
+    func fetchFeed(id: Int) async throws -> ShortsRecipe
 }

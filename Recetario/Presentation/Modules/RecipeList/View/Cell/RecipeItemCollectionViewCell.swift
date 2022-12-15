@@ -26,3 +26,14 @@ class RecipeItemCollectionViewCell: UICollectionViewCell {
         coverImageView.sd_setImage(with: dataSource.url)
     }
 }
+
+extension ShortRecipe: RecipeItemCollectionViewCellDataSource {
+    var title: String {
+        name ?? ""
+    }
+
+    var url: URL? {
+        let cdn = "https://cdn7.kiwilimon.com/\(k)/300x400/\(image ?? "").jpg"
+        return URL(string: cdn)
+    }
+}

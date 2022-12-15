@@ -10,6 +10,7 @@ import Combine
 
 struct RecipeCategoriesViewModelInput {
     let viewDidLoadPublisher = PassthroughSubject<Void, Never>()
+    let didSelectItemPublisher = PassthroughSubject<(Int,Int), Never>()
 }
 
 struct RecipeCategoriesViewModelOutput {
@@ -20,6 +21,7 @@ class RecipeCategoriesViewModel {
     private let getCategoriesUseCase: GetCategoriesUseCaseProtocol
     private let output: RecipeCategoriesViewModelOutput
     private var subscriptions = Set<AnyCancellable>()
+    private var items = [Category]()
     
     init(getCategoriesUseCase: GetCategoriesUseCaseProtocol, output: RecipeCategoriesViewModelOutput) {
         self.getCategoriesUseCase = getCategoriesUseCase
@@ -30,17 +32,27 @@ class RecipeCategoriesViewModel {
         input.viewDidLoadPublisher
             .sink(receiveValue: getCategories)
             .store(in: &subscriptions)
+    
+        input.didSelectItemPublisher
+            .sink(receiveValue: routeToRecipeList)
+            .store(in: &subscriptions)
         return output
     }
     
-    func getCategories(){
+    func getCategories() {
         Task {
             do {
                 let categories = try await self.getCategoriesUseCase.execute()
+                self.items = categories
                 self.output.items.send(categories)
             } catch {
                 self.output.items.send(completion: .failure(error))
             }
         }
+    }
+
+    func routeToRecipeList(indexPath: (Int, Int)) {
+        let item = items[indexPath.0].classifications[indexPath.1]
+        item.key
     }
 }

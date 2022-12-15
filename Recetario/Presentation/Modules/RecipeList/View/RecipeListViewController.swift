@@ -6,21 +6,22 @@
 //
 
 import UIKit
-
-struct ShortRecipe {
-    
-}
+import Combine
 
 class RecipeListViewController: UIViewController {
-    
+
+    var viewModel: RecipeListViewModel!
+    var input: RecipeListViewModelInput!
+
+    private var subscriptions = Set<AnyCancellable>()
     private var items: [ShortRecipe] = [] {
         didSet {
             collectionView.reloadData()
         }
     }
 
-    @IBOutlet weak var descriptionLabel: UILabel!
-    @IBOutlet weak var collectionView: UICollectionView! {
+    @IBOutlet private weak var descriptionLabel: UILabel!
+    @IBOutlet private weak var collectionView: UICollectionView! {
         didSet {
             collectionView.delegate = self
             collectionView.dataSource = self
@@ -30,7 +31,23 @@ class RecipeListViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        bind()
+        input.viewDidLoadPublisher.send(())
+    }
+
+    func bind() {
+        let output = self.viewModel.bind(input: input)
+        output
+            .items
+            .receive(on: DispatchQueue.main)
+            .sink { completion in
+                if case let .failure(error) = completion {
+                    self.show(error: error)
+                }
+            } receiveValue: { items in
+                self.items = items
+            }
+            .store(in: &subscriptions)
     }
 }
 
@@ -45,8 +62,8 @@ extension RecipeListViewController: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell : RecipeItemCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "RecipeItemCollectionViewCell", for: indexPath) as! RecipeItemCollectionViewCell
-        //let item = items[indexPath.row]
-        //cell.configure(dataSource: item)
+        let item = items[indexPath.row]
+        cell.configure(dataSource: item)
         return cell
     }
 }
