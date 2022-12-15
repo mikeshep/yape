@@ -34,6 +34,8 @@
 		38E3234D294AEC7D00758630 /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E3234C294AEC7D00758630 /* RecipeViewModel.swift */; };
 		38E3234F294AECD300758630 /* GetRecipeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E3234E294AECD300758630 /* GetRecipeUseCase.swift */; };
 		38E32353294B001B00758630 /* recipe_response_ok.json in Resources */ = {isa = PBXBuildFile; fileRef = 38E32352294AFFC000758630 /* recipe_response_ok.json */; };
+		38E32355294B014D00758630 /* GetClassificationsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E32354294B014C00758630 /* GetClassificationsUseCase.swift */; };
+		38E32358294B019700758630 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 38E32357294B019700758630 /* SDWebImage */; };
 		38ED1780294A519A004F7C89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ED177F294A519A004F7C89 /* AppDelegate.swift */; };
 		38ED1789294A519C004F7C89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38ED1788294A519C004F7C89 /* Assets.xcassets */; };
 		38ED178C294A519C004F7C89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38ED178A294A519C004F7C89 /* LaunchScreen.storyboard */; };
@@ -113,6 +115,7 @@
 		38E3234C294AEC7D00758630 /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
 		38E3234E294AECD300758630 /* GetRecipeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRecipeUseCase.swift; sourceTree = "<group>"; };
 		38E32352294AFFC000758630 /* recipe_response_ok.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recipe_response_ok.json; sourceTree = "<group>"; };
+		38E32354294B014C00758630 /* GetClassificationsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetClassificationsUseCase.swift; sourceTree = "<group>"; };
 		38ED177C294A519A004F7C89 /* Recetario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recetario.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38ED177F294A519A004F7C89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38ED1788294A519C004F7C89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -163,6 +166,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38E32358294B019700758630 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +313,13 @@
 			path = Coordinator;
 			sourceTree = "<group>";
 		};
+		38E32356294B019700758630 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		38ED1773294A519A004F7C89 = {
 			isa = PBXGroup;
 			children = (
@@ -316,6 +327,7 @@
 				38ED1795294A519C004F7C89 /* RecetarioTests */,
 				38ED179F294A519C004F7C89 /* RecetarioUITests */,
 				38ED177D294A519A004F7C89 /* Products */,
+				38E32356294B019700758630 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -349,6 +361,7 @@
 			isa = PBXGroup;
 			children = (
 				38ED1796294A519C004F7C89 /* RecetarioTests.swift */,
+				38E32354294B014C00758630 /* GetClassificationsUseCase.swift */,
 			);
 			path = RecetarioTests;
 			sourceTree = "<group>";
@@ -521,6 +534,9 @@
 				38ED1794294A519C004F7C89 /* PBXTargetDependency */,
 			);
 			name = RecetarioTests;
+			packageProductDependencies = (
+				38E32357294B019700758630 /* SDWebImage */,
+			);
 			productName = RecetarioTests;
 			productReference = 38ED1792294A519C004F7C89 /* RecetarioTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -679,6 +695,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38E32355294B014D00758630 /* GetClassificationsUseCase.swift in Sources */,
 				38ED1797294A519C004F7C89 /* RecetarioTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1016,6 +1033,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		38E32357294B019700758630 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38ED17E7294A9579004F7C89 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
 		38ED17E8294A9579004F7C89 /* SDWebImage */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 38ED17E7294A9579004F7C89 /* XCRemoteSwiftPackageReference "SDWebImage" */;
