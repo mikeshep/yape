@@ -52,7 +52,9 @@ class RecipeListViewController: UIViewController {
 }
 
 extension RecipeListViewController: UICollectionViewDelegate {
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        input.didSelectItemPublisher.send(indexPath.row)
+    }
 }
 
 extension RecipeListViewController: UICollectionViewDataSource {

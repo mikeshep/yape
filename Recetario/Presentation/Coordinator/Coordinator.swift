@@ -14,5 +14,5 @@ protocol Coordinator: AnyObject {
     func start()
     func goToRecipeCategories()
     func goToRecipeList(key: Int)
-    func goToRecipe()
+    func goToRecipe(key: Int)
 }

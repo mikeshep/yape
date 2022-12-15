@@ -8,16 +8,16 @@
 import UIKit
 
 enum RecipeBuilder {
-    static func build(coordinator: Coordinator) -> UIViewController {
+    static func build(coordinator: Coordinator, key: Int) -> UIViewController {
         let recipeRepository = RecipeService()
-        var searchUseCase: SearchUseCaseProtocol?
-        var feedUseCase: GetFeedUseCaseProtocol?
+        var getRecipeUseCase: GetRecipeUseCaseProtocol = GetRecipeUseCase(requestValue: key,
+                                                                          recipeRepository: recipeRepository)
         let output = RecipeViewModelOutput()
         let input = RecipeViewModelInput()
-        let viewModel = RecipeViewModel(searchUseCase: searchUseCase, output: output)
+        let viewModel = RecipeViewModel(getRecipeUseCase: getRecipeUseCase, output: output)
         let view = RecipeViewController(nibName: "RecipeViewController", bundle: nil)
-        //view.viewModel = viewModel
-        //view.input = input
+        view.viewModel = viewModel
+        view.input = input
         return view
     }
 }

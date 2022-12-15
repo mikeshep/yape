@@ -22,7 +22,8 @@ enum RecipeListBuilder {
         let input = RecipeListViewModelInput()
         let viewModel = RecipeListViewModel(searchUseCase: searchUseCase,
                                             feedUseCase: feedUseCase,
-                                            output: output)
+                                            output: output,
+                                            coordinator: coordinator)
         let view = RecipeListViewController(nibName: "RecipeListViewController", bundle: nil)
         view.viewModel = viewModel
         view.input = input

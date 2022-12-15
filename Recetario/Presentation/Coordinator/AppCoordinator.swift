@@ -29,7 +29,8 @@ class AppCoordinator: Coordinator {
         navigationController.pushViewController(viewController, animated: true)
     }
 
-    func goToRecipe() {
-        
+    func goToRecipe(key: Int) {
+        let viewController = RecipeBuilder.build(coordinator: self, key: key)
+        navigationController.pushViewController(viewController, animated: true)
     }
 }
