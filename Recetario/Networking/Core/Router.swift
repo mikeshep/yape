@@ -12,6 +12,7 @@ enum Router: Equatable {
     case categories
     case search(q: String)
     case feed(id: Int)
+    case recipe(key: Int)
 
     var url: String { scheme + "://" + host + path }
     var scheme: String { API.scheme }
@@ -25,6 +26,8 @@ enum Router: Equatable {
             return "/search"
         case .feed:
             return "/feed"
+        case .recipe:
+            return "/recipe"
         }
     }
 
@@ -53,6 +56,8 @@ enum Router: Equatable {
             return "v=1&q=\(q)&quantity=10&page=1&order=1&multimedia=0&&language=es&device=ios&".data(using: .utf8)
         case .feed(let id):
             return  "idioma=es&dispositivo=ios&v=1&type=recetaclasificaciontop&order=1&key=\(id)&quantity=10&page=1&language=es&device=ios&".data(using: .utf8)
+        case .recipe(let key):
+            return "token=&human=1&key=\(key)&language=es&device=ios&".data(using: .utf8)
         }
     }
     
@@ -64,6 +69,8 @@ enum Router: Equatable {
         case .search:
             return "POST"
         case .feed:
+            return "POST"
+        case .recipe:
             return "POST"
         }
     }

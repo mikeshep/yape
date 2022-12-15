@@ -23,4 +23,8 @@ class RecipeService: RecipeRepository, HTTPClient {
     func fetchFeed(id: Int) async throws -> ShortsRecipe {
         return try await sendRequest(endpoint: .feed(id: id), responseModel: ShortsRecipe.self)
     }
+
+    func fetchRecipe(key: Int) async throws -> Recipe {
+        return try await sendRequest(endpoint: .recipe(key: key), responseModel: Recipe.self)
+    }
 }

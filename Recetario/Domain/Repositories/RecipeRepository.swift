@@ -12,4 +12,5 @@ protocol RecipeRepository {
     func fetchSuggestions(string: String) async throws -> [Suggestion]
     func fetchSearch(q: String) async throws -> ShortsRecipe
     func fetchFeed(id: Int) async throws -> ShortsRecipe
+    func fetchRecipe(key: Int) async throws -> Recipe
 }

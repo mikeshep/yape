@@ -31,6 +31,8 @@
 		38E32347294AE1DB00758630 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E32346294AE1DB00758630 /* AppCoordinator.swift */; };
 		38E32349294AE38900758630 /* RecipeListBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E32348294AE38900758630 /* RecipeListBuilder.swift */; };
 		38E3234B294AEBB100758630 /* RecipeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E3234A294AEBB100758630 /* RecipeBuilder.swift */; };
+		38E3234D294AEC7D00758630 /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E3234C294AEC7D00758630 /* RecipeViewModel.swift */; };
+		38E3234F294AECD300758630 /* GetRecipeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E3234E294AECD300758630 /* GetRecipeUseCase.swift */; };
 		38ED1780294A519A004F7C89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ED177F294A519A004F7C89 /* AppDelegate.swift */; };
 		38ED1789294A519C004F7C89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38ED1788294A519C004F7C89 /* Assets.xcassets */; };
 		38ED178C294A519C004F7C89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38ED178A294A519C004F7C89 /* LaunchScreen.storyboard */; };
@@ -107,6 +109,8 @@
 		38E32346294AE1DB00758630 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		38E32348294AE38900758630 /* RecipeListBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListBuilder.swift; sourceTree = "<group>"; };
 		38E3234A294AEBB100758630 /* RecipeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeBuilder.swift; sourceTree = "<group>"; };
+		38E3234C294AEC7D00758630 /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
+		38E3234E294AECD300758630 /* GetRecipeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRecipeUseCase.swift; sourceTree = "<group>"; };
 		38ED177C294A519A004F7C89 /* Recetario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recetario.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38ED177F294A519A004F7C89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38ED1788294A519C004F7C89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -192,6 +196,7 @@
 		3880A4E4294AC19600AAB9D1 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				38E3234C294AEC7D00758630 /* RecipeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -392,6 +397,7 @@
 				38ED17CC294A7CBF004F7C89 /* UseCase.swift */,
 				38E32341294ADED900758630 /* GetFeedUseCase.swift */,
 				38E3233F294AD7BC00758630 /* SearchUseCase.swift */,
+				38E3234E294AECD300758630 /* GetRecipeUseCase.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -620,6 +626,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38ED17C1294A7AF5004F7C89 /* Nutrient.swift in Sources */,
+				38E3234F294AECD300758630 /* GetRecipeUseCase.swift in Sources */,
 				38ED17E1294A935D004F7C89 /* TopRecipeCollectionViewCell.swift in Sources */,
 				38E3233C294AD4DA00758630 /* ShortRecipe.swift in Sources */,
 				38ED17CD294A7CBF004F7C89 /* UseCase.swift in Sources */,
@@ -629,6 +636,7 @@
 				38E32344294AE19200758630 /* Coordinator.swift in Sources */,
 				38ED17B3294A75B4004F7C89 /* Category.swift in Sources */,
 				38E3232E294ACFB000758630 /* HTTPClient.swift in Sources */,
+				38E3234D294AEC7D00758630 /* RecipeViewModel.swift in Sources */,
 				38ED17D6294A85A0004F7C89 /* RecipeCategoriesViewController.swift in Sources */,
 				38ED17DB294A90A0004F7C89 /* RecipeCategoriesBuilder.swift in Sources */,
 				38ED17BF294A7AEA004F7C89 /* Ingredient.swift in Sources */,
