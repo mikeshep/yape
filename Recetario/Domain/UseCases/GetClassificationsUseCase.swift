@@ -27,44 +27,6 @@ final class GetCategoriesUseCase: GetCategoriesUseCaseProtocol {
     }
 
     func execute() async throws -> ResultValue {
-        return try await recipeRepository.fetchClassifications()
+        return try await recipeRepository.fetchCategories()
     }
-}
-
-protocol RecipeRepository {
-    func fetchClassifications() async throws -> [Category]
-}
-
-class RecipeService: RecipeRepository {
-    func fetchClassifications() async throws -> [Category] {
-        return try await withCheckedThrowingContinuation({ (continuation: CheckedContinuation<[Category], Error>) in
-            loadJSONData { (data: [Category]?, error: Error?) in
-                if let error {
-                    continuation.resume(throwing: error)
-                }
-                if let data {
-                    continuation.resume(returning: data)
-                }
-            }
-        })
-    }
-
-    func loadJSONData<T: Codable>(completion: @escaping (_ data: T?, _ error: Error?) -> ())  {
-        DispatchQueue.global(qos: .background).async {
-            let path = Bundle.main.path(forResource: "classifications_response_200", ofType: "json")!
-            do {
-                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .alwaysMapped)
-                let object = try JSONDecoder().decode(T.self, from: data)
-                completion(object, nil)
-            } catch {
-                completion(nil, error)
-            }
-        }
-    }
-}
-
-
-enum RecipeServiceError: Error {
-case failLoadJSON
-case unknow
 }
