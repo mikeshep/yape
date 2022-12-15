@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         self.window = self.window ?? UIWindow()
         self.window!.backgroundColor = UIColor.red
-        self.window!.rootViewController = RecipeListBuilder.build()
+        self.window!.rootViewController = RecipeCategoriesBuilder.build()
         self.window!.makeKeyAndVisible()
         return true
     }

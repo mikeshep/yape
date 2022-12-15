@@ -1,5 +1,5 @@
 //
-//  RecipeListViewModel.swift
+//  RecipeCategoriesViewModel.swift
 //  Recetario
 //
 //  Created by Miguel Angel Olmedo Perez on 14/12/22.
@@ -8,25 +8,25 @@
 import Foundation
 import Combine
 
-struct RecipeListViewModelInput {
+struct RecipeCategoriesViewModelInput {
     let viewDidLoadPublisher = PassthroughSubject<Void, Never>()
 }
 
-struct RecipeListViewModelOutput {
+struct RecipeCategoriesViewModelOutput {
     let items = PassthroughSubject<[Category], Error>()
 }
 
-class RecipeListViewModel {
+class RecipeCategoriesViewModel {
     private let getCategoriesUseCase: GetCategoriesUseCaseProtocol
-    private let output: RecipeListViewModelOutput
+    private let output: RecipeCategoriesViewModelOutput
     private var subscriptions = Set<AnyCancellable>()
     
-    init(getCategoriesUseCase: GetCategoriesUseCaseProtocol, output: RecipeListViewModelOutput) {
+    init(getCategoriesUseCase: GetCategoriesUseCaseProtocol, output: RecipeCategoriesViewModelOutput) {
         self.getCategoriesUseCase = getCategoriesUseCase
         self.output = output
     }
     
-    func bind(input: RecipeListViewModelInput) -> RecipeListViewModelOutput {
+    func bind(input: RecipeCategoriesViewModelInput) -> RecipeCategoriesViewModelOutput {
         input.viewDidLoadPublisher
             .sink(receiveValue: getCategories)
             .store(in: &subscriptions)
